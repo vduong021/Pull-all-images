@@ -1,0 +1,17 @@
+{
+    "name": "Image Grabber",
+    "desciption": "Extract all images from current web page",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "/image/icons8-download-30.png",
+        "32": "/image/icons8-download-30.png",
+        "48": "/image/icons8-download-60.png",
+        "128": "/image/icons8-download-90.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["scripting", "activeTab"],
+    "background": {}
+}
